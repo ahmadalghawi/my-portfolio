@@ -31,6 +31,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Set environment variables
+        run: |
+          echo "RESEND_API_KEY=${{ secrets.NEXT_PUBLIC_RESEND_API_KEY }}" >> .env.local
+          echo "RESEND_FROM_EMAIL=${{ secrets.NEXT_PUBLIC_RESEND_FROM_EMAIL }}" >> .env.local
+          echo "RESEND_MAILER_EMAIL=${{ secrets.NEXT_PUBLIC_RESEND_MAILER_EMAIL }}" >> .env.local
       - name: Detect package manager
         id: detect-package-manager
         run: |
