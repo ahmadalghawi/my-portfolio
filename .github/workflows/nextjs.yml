@@ -88,6 +88,11 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Set environment variables
+        run: |
+          echo "RESEND_API_KEY=${{ secrets.RESEND_API_KEY }}" >> .env.local
+          echo "RESEND_FROM_EMAIL=${{ secrets.RESEND_FROM_EMAIL }}" >> .env.local
+          echo "RESEND_MAILER_EMAIL=${{ secrets.RESEND_MAILER_EMAIL }}" >> .env.local
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
