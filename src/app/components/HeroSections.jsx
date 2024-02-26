@@ -16,7 +16,7 @@ const HeroSections = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className='col-span-7 place-self-center text-center sm:text-left'>
-          <h1 className="text-primary mb-4  text-4xl sm:text-5xl lg:text-5xl font-extrabold"><span className='text-transparent bg-clip-text bg-gradient-to-br from-primary to-tertiary-400 '>Hello, I'm {" "}</span>
+          <h1 className="text-primary mb-4  text-4xl sm:text-5xl lg:text-5xl font-extrabold"><span className='text-transparent bg-clip-text bg-gradient-to-br from-primary to-tertiary-400 '>Hello, I am {" "}</span>
           <br/>
           <TypeAnimation
               sequence={[
@@ -36,7 +36,7 @@ const HeroSections = () => {
             />
           </h1>
           <p className='text-secondary text-base sm:text-lg mb-6 lg:text-2xl sm:pr-2 dark:dark:text-tertiary-300' >
-            I'm a Software Developer with 3+ years of expertise and 1+ year as a Full Stack Developer at Skillur.
+            I am a Software Developer with 3+ years of expertise and 1+ year as a Full Stack Developer at Skillur.
             Proficient in React.js, TypeScript, Node.js, and more. 
           </p>
           <div>

@@ -73,7 +73,7 @@ const TAB_DATA = [
       content: (
         <ul className="list-disc pl-2">
           <li>Diploma.NET/React.js full stack /Lexicon Malmö 2021</li>
-          <li>University of Jordan (Jordan), Bachelor's degree in computer information systems (CIA).</li>
+          <li>University of Jordan (Jordan), Bachelors degree in computer information systems (CIA).</li>
           <li>High school (Jordan) Information Technology (IT)</li>
         </ul>
       ),
