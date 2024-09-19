@@ -46,6 +46,9 @@ const TAB_DATA = [
         </TabPanel>
         <TabPanel>
         <ul className="list-disc pl-2 ml-5">
+          <li>AI-Powered Development: Skilled in utilizing AI tools and prompt-based coding to accelerate development, 
+            optimize code, and solve complex programming challenges efficiently.</li>
+          <li>Problem Solver</li>
           <li>Quick Learner</li>
           <li>Versatile Team Player</li>
           <li>Commitment to High-Quality, Scalable Solutions</li>
