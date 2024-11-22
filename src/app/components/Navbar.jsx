@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav className={`fixed mx-auto border border-tertiary-600 left-0 right-0 top-0 z-50 w-full bg-bgLogo ${
         navbarOpen ? 'bg-opacity-100' : 'bg-opacity-90' }`}>
        <div className='flex container lg:py-4 flex-wrap items-center justify-between mx-auto md:px-6 py-2 md:py-3'>
-        <Link href='/' className='text-2xl md:text-5xl font-semibold text-Twhite'>LOGO</Link>
+        <Link href='/' className='text-2xl md:text-5xl font-semibold text-Twhite'>Ahmad Alghawi</Link>
         <div className='mobile-menu md:hidden'><ToggleButton /></div>
         <div className='mobile-menu block  md:hidden'>
             {!navbarOpen ? (
